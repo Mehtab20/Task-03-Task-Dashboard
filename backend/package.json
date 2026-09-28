@@ -1,0 +1,17 @@
+{
+  "name": "task-dashboard-backend",
+  "version": "1.0.0",
+  "description": "Express REST API for Task Dashboard with SQLite persistence",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "sql.js": "^1.11.0"
+  }
+}
